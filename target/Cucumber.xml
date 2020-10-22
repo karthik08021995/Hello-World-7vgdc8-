@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="0.203437">
+    <testcase classname="Application Login" name="Facebook happy path login" time="0.192827">
+        <system-out>
+            <![CDATA[Given User is on facebook home page.........................................passed
+When User will login with username "karthik" and password "noone"...........passed
+Then User will click on Login button........................................passed
+And User will verify facebook header........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Facebook happy path login" time="0.001151">
+        <system-out>
+            <![CDATA[Given Validate the browser..................................................passed
+When launch the browser.....................................................passed
+Then verify the browser.....................................................passed
+Given User is on facebook home page.........................................passed
+When User will login with username "karthik" and password "noone"...........passed
+Then User will click on Login button........................................passed
+And User will verify facebook header........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Facebook happy path login page 2" time="0.002059">
+        <system-out>
+            <![CDATA[Given Validate the browser..................................................passed
+When launch the browser.....................................................passed
+Then verify the browser.....................................................passed
+Given User is on facebook home page.........................................passed
+When User will login with username "Wolverine" and password "noone".........passed
+Then User will click on Login button........................................passed
+And User will verify facebook header........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Facebook happy path login page 3" time="0.003871">
+        <system-out>
+            <![CDATA[Given Validate the browser..................................................passed
+When launch the browser.....................................................passed
+Then verify the browser.....................................................passed
+Given User is on facebook home page.........................................passed
+When User will login with following details.................................passed
+Then User will click on Login button........................................passed
+And User will verify facebook header........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Facebook happy path login page 4" time="0.00168">
+        <system-out>
+            <![CDATA[Given Validate the browser..................................................passed
+When launch the browser.....................................................passed
+Then verify the browser.....................................................passed
+Given User is on facebook home page.........................................passed
+When User will login with following details of user1 and pass1..............passed
+Then User will click on Login button........................................passed
+And User will verify facebook header........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Facebook happy path login page 4 2" time="0.001849">
+        <system-out>
+            <![CDATA[Given Validate the browser..................................................passed
+When launch the browser.....................................................passed
+Then verify the browser.....................................................passed
+Given User is on facebook home page.........................................passed
+When User will login with following details of user2 and pass2..............passed
+Then User will click on Login button........................................passed
+And User will verify facebook header........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
